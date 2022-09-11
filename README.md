@@ -32,7 +32,7 @@ ln -s $(realpath nest.py) /usr/bin/nest.py
 python3 nest.py 
 # or 
 ./nest.py
-# if you have the symbolic link as discussed above, you can call the program from anywhere. simply just run:
+# if you have the symbolic link as discussed above, you can call the program from anywhere. run:
 nest.py
 ```
 ## ⚠️ To-Do 

@@ -25,7 +25,7 @@ chmod +x nest.py
 ```
 If you'd like to access the script from anywhere, you could create a symbolic link:
 ```
-ln -s $(realpath nest.py) /usr/bin/nest.py
+ln -s $(realpath nest.py) /usr/bin/nest
 ```
 ## 🩸 Usage 
 ```

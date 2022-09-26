@@ -33,7 +33,7 @@ python3 nest.py
 # or 
 ./nest.py
 # if you have the symbolic link as discussed above, you can call the program from anywhere. run:
-nest.py
+nest
 ```
 ## ⚠️ To-Do 
 - `add in user-arguments? perhaps...` 

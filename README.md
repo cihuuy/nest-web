@@ -37,4 +37,5 @@ nest
 ```
 ## ⚠️ To-Do 
 - `add in user-arguments? perhaps...` 
-
+- `add in a "default" "no-args" setup which will run with the usual CTF-esque settings for serving files`
+- `add in an interactive switch to allow users to do the manual stuff that way instead of doing it every time on script execution`

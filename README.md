@@ -23,7 +23,7 @@ If you run the nest server without arguments, it will by default run on all inte
 
 ### `'ctf' mode [-c/--ctf]`
 
-I've developed a special "quick" mode for CTF players; although this is certainly not limited to just them. Suppose you've got a common CTF up and running from TryHackMe or HackTheBox via OpenVPN, this mode, when toggled, will look for such interfaces (`tap0/tun0`) and automatically start serving on whichever one it finds on port 8080.
+I've developed a special "quick" mode for CTF players; although this is certainly not limited to just them. Suppose you've got a common CTF interface up and running from TryHackMe or HackTheBox via OpenVPN, this mode, when toggled, will look for such interfaces (`tap0/tun0`) and automatically start serving on whichever one it finds on port 8080.
 
 ---
 ![ctf](https://github.com/cr-0w/nest/blob/main/demo/ctf.gif)

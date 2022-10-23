@@ -8,8 +8,10 @@
 
 I'm sure we're all sick and tired of running a HTTP Server and painstakingly finding the file we want to get on our target as well as finding our own IP to actually download the file from! I've created `nest!` in an attempt to rid us all of that headache. This program comes with _Quality-of-Life_ features such:
 
+- **automatically serving on CTF interfaces (`tap0/tun0`)**
 - **listing all the files in the current directory prepended with the whole url-shebang: e.g., `http://{ip}:{port}/{file}`**
 - **asking you which interface you'd like to host the files on - no more `ifconfig` + `ls -la` spamming 😁!**
+
 
 
 ### `running w/o args` 

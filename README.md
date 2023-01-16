@@ -12,27 +12,24 @@ I'm sure we're all sick and tired of running a HTTP Server and painstakingly fin
 - **listing all the files in the current directory prepended with the whole url-shebang: e.g., `http://{ip}:{port}/{file}`**
 - **asking you which interface you'd like to host the files on - no more `ifconfig` + `ls -la` spamming 😁!**
 
-
+---
 
 ### `running w/o args` 
 
 If you run the nest server without arguments, it will by default run on all interfaces (`0.0.0.0`) on port `8080`. You'll also see all of the interfaces populated with the sub-directories and files so it's just a matter of copy and pasting whatever link you need to download from.
 
 ---
-![demo](https://github.com/cr-0w/nest/blob/main/demo/default.gif)
 
 ### `'ctf' mode [-c/--ctf]`
 
 I've developed a special "quick" mode for CTF players; although this is certainly not limited to just them. Suppose you've got a common CTF interface up and running from TryHackMe or HackTheBox via OpenVPN, this mode, when toggled, will look for such interfaces (`tap0/tun0`) and automatically start serving on whichever one it finds on port 8080.
 
----
 ![ctf](https://github.com/cr-0w/nest/blob/main/demo/ctf.gif)
 
 ### `'interactive' mode [-i/--interactive]`
 To run the program the way it was (interactively; meaning you'd supply whatever interface and port you'd like) in version `1.0.0`, you can run nest with `-i/--interactive`:
 
 ---
-![interactive](https://github.com/cr-0w/nest/blob/main/demo/interactive.gif)
 
 > _Oh, and don't you worry! It's got logs too 😎._
 
